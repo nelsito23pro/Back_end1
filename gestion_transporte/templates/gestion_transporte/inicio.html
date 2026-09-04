@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Transporte</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        nav h2 {
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            transition: opacity 0.2s;
+        }
+
+        nav ul li a:hover {
+            opacity: 0.7;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #d3d9e6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            padding: 40px 20px 80px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 30px;
+            width: 260px;
+            text-align: center;
+            backdrop-filter: blur(6px);
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .card .icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #cfd6e6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #b0b8cc;
+            background: rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>🚍 Gestión de Transporte</h2>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Vehículos</a></li>
+            <li><a href="#">Choferes</a></li>
+            <li><a href="#">Rutas</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Bienvenido al Sistema de Gestión</h1>
+        <p>Administrá vehículos, choferes y rutas de forma simple, rápida y centralizada.</p>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <div class="icon">🚐</div>
+            <h3>Vehículos</h3>
+            <p>Consultá y administrá la flota disponible.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🧑‍✈️</div>
+            <h3>Choferes</h3>
+            <p>Gestioná la información de los conductores.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🗺️</div>
+            <h3>Rutas</h3>
+            <p>Organizá y visualizá los recorridos asignados.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Gestión de Transporte — Proyecto Django
+    </footer>
+
+</body>
+</html>
