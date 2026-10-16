@@ -42,3 +42,6 @@ python3 manage.py runserver
 ```
 
 7. Abrir en el navegador
+
+
+8. Comandos para el git

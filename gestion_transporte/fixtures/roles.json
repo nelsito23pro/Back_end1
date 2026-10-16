@@ -1,0 +1,26 @@
+[
+  {
+    "model": "gestion_transporte.rol",
+    "pk": 1,
+    "fields": {
+      "nombre": "Administrador",
+      "descripcion": "Acceso total al sistema"
+    }
+  },
+  {
+    "model": "gestion_transporte.rol",
+    "pk": 2,
+    "fields": {
+      "nombre": "Operador",
+      "descripcion": "Gestiona rutas, viajes y asignaciones"
+    }
+  },
+  {
+    "model": "gestion_transporte.rol",
+    "pk": 3,
+    "fields": {
+      "nombre": "Supervisor",
+      "descripcion": "Consulta reportes e incidencias"
+    }
+  }
+]

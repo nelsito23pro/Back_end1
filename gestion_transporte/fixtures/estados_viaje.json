@@ -1,0 +1,14 @@
+[
+  {"model": "gestion_transporte.estadoviaje", "pk": 1,
+   "fields": {"nombre": "PROGRAMADO", "descripcion": "Viaje creado y programado"}},
+  {"model": "gestion_transporte.estadoviaje", "pk": 2,
+   "fields": {"nombre": "ASIGNADO", "descripcion": "Conductor y vehículo asignados"}},
+  {"model": "gestion_transporte.estadoviaje", "pk": 3,
+   "fields": {"nombre": "EN_CURSO", "descripcion": "Viaje en ejecución"}},
+  {"model": "gestion_transporte.estadoviaje", "pk": 4,
+   "fields": {"nombre": "FINALIZADO", "descripcion": "Viaje completado"}},
+  {"model": "gestion_transporte.estadoviaje", "pk": 5,
+   "fields": {"nombre": "CANCELADO", "descripcion": "Viaje cancelado"}},
+  {"model": "gestion_transporte.estadoviaje", "pk": 6,
+   "fields": {"nombre": "SUSPENDIDO", "descripcion": "Viaje suspendido temporalmente"}}
+]
